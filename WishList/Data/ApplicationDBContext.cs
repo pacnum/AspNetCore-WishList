@@ -9,9 +9,9 @@ namespace WishList.Data
 
     // Code Changes - Added Database Class and constructors to application
 
-    public class ApplicationDBContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDBContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions options) : base(options)
         {
 
         }
