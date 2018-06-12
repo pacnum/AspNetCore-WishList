@@ -26,7 +26,17 @@ namespace WishList
             {
                 //Initail HelloWorld Code :)
                 //await context.Response.WriteAsync("Hello World!");
+                
+                //If Dev environment or If Production Enviroment pages
 
+                if(env.IsDevelopment())
+                {
+                    app.UseDeveloperExceptionPage();   
+                }
+                else
+                {
+                    app.UseExceptionHandler("/Home/Error");
+                }
                 app.UseMvcWithDefaultRoute();
             });
         }
