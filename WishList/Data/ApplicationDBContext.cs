@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 // Code Changes - Added Database Class and constructors to application
 //New class -  ApplicationDbContext created
+//Reloaded File
 
 namespace WishList.Data
 {
@@ -13,9 +14,6 @@ namespace WishList.Data
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
-
         }
-
-
     }
 }
