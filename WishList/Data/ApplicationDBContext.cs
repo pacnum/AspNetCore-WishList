@@ -8,6 +8,7 @@ namespace WishList.Data
 {
 
     // Code Changes - Added Database Class and constructors to application
+    //New File ApplicationDbContext created
 
     public class ApplicationDbContext : DbContext
     {
